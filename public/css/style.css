@@ -15541,4 +15541,31 @@ header .btn {
   margin: 30px 300px;
 }
 
+.tab-pane img {
+  border: solid 2px grey;
+}
+
+.nav a {
+  color: black;
+}
+.nav a i {
+  color: #c2bfbf;
+}
+.nav a:hover {
+  border-right: 5px solid red;
+}
+.nav a:hover i {
+  color: red;
+}
+
+.menu {
+  display: flex;
+}
+.menu .nav {
+  flex: 2;
+}
+.menu .menushow {
+  flex: 10;
+}
+
 /*# sourceMappingURL=style.css.map */
