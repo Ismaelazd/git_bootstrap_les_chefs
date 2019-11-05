@@ -15495,4 +15495,50 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
+header {
+  background-image: url("../../public/images/banner1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .opa {
+  background-color: #00000067;
+  height: 100vh;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+}
+header nav ul a {
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  text-decoration: none;
+  align-self: center;
+  padding: 10px 20px;
+}
+header nav ul a:hover {
+  text-decoration: none;
+  background-color: #ff000098;
+  color: white;
+}
+header .btn {
+  border-radius: 25px;
+}
+
+.section-menu {
+  background-image: url("../../public/images/main_bg.jpg");
+}
+
+.lor {
+  margin: 30px 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
