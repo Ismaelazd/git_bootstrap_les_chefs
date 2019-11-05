@@ -15573,11 +15573,23 @@ header .btn {
 }
 
 .section-chef {
-  background-color: rgba(8, 8, 8, 0.952);
+  background-image: url("../../public/images/team_background.jpg");
 }
 
 .section-book {
   background-image: url("../../public/images/main_bg.jpg");
+}
+.section-book form {
+  display: flex;
+  flex-direction: column;
+}
+.section-book form input, .section-book form select {
+  width: 35vh;
+  height: 5vh;
+  margin: 15px 0;
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
