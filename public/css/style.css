@@ -15533,6 +15533,10 @@ header .btn {
   border-radius: 25px;
 }
 
+.h1 {
+  text-transform: uppercase;
+}
+
 .section-menu {
   background-image: url("../../public/images/main_bg.jpg");
 }
@@ -15566,6 +15570,14 @@ header .btn {
 }
 .menu .menushow {
   flex: 10;
+}
+
+.section-chef {
+  background-color: rgba(8, 8, 8, 0.952);
+}
+
+.section-book {
+  background-image: url("../../public/images/main_bg.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
