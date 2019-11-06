@@ -7,21 +7,27 @@ $fa-font-path:"../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
 
-    
+
+
+body
+    font-family: 'Courgette', cursive
 
 header
     
    
     background-image: url("../../public/images/banner1.jpg") 
-    
     background-size: cover
     background-repeat: no-repeat
+    background-position: center
     
     
     .opa
         background-color: #00000067
-        height: 100vh
-
+        .opa2 
+            .ehi
+                background-image: url("../../public/images/bottom_decoration_img.png") 
+                height: 10px
+       
     
     
     nav 
@@ -53,6 +59,12 @@ header
 
     .btn
         border-radius: 25px
+    .carousel-indicators > li 
+        width: 7px
+        height: 7px
+        background-color: #646464
+        border-radius: 50%
+        border: 2px solid white
 .h1
     text-transform: uppercase
     
@@ -68,8 +80,12 @@ header
     a 
         color: black
         padding: 0
-        border-bottom: 1px solid grey
-        border-right: 1px solid grey
+        
+        border-right: 1px solid rgb(209, 209, 209)
+        
+    p    
+        width: 90%
+        border-bottom: 1px solid rgb(209, 209, 209)
 
         i 
             color: rgb(194, 191, 191)
@@ -102,9 +118,12 @@ header
     .menushow
         flex: 10
 
-    .row > .col-6
-        border-bottom: 1px solid grey
-        padding: 0
+    .kk
+
+        border-bottom: 1px solid rgb(209, 209, 209)
+        width: 90%
+        
+      
  
  
 .section-chef
@@ -170,11 +189,24 @@ header
 
 .section-contact
     background-image: url("../../public/images/main_bg.jpg")
+    
 
     .contact
         margin: 5vh 60vh
         padding: 10vh 0
         border-radius: 25px
 
-footer
+
+.footimg
+    background-image: url("../../public/images/footer_bottom_decoration_img.png") 
+    height: 10px
+    background-color: black
+
+.foot
+    
     background-image: url("../../public/images/footer_background.jpg")
+
+    a 
+        border: 2px solid white
+        border-radius: 25px
+        font-size: 13px

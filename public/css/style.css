@@ -15495,14 +15495,22 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
+body {
+  font-family: "Courgette", cursive;
+}
+
 header {
   background-image: url("../../public/images/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 header .opa {
   background-color: #00000067;
-  height: 100vh;
+}
+header .opa .opa2 .ehi {
+  background-image: url("../../public/images/bottom_decoration_img.png");
+  height: 10px;
 }
 header nav {
   display: flex;
@@ -15532,6 +15540,13 @@ header nav ul a:hover {
 header .btn {
   border-radius: 25px;
 }
+header .carousel-indicators > li {
+  width: 7px;
+  height: 7px;
+  background-color: #646464;
+  border-radius: 50%;
+  border: 2px solid white;
+}
 
 .h1 {
   text-transform: uppercase;
@@ -15552,10 +15567,13 @@ header .btn {
 .nav a {
   color: black;
   padding: 0;
-  border-bottom: 1px solid grey;
-  border-right: 1px solid grey;
+  border-right: 1px solid #d1d1d1;
 }
-.nav a i {
+.nav p {
+  width: 90%;
+  border-bottom: 1px solid #d1d1d1;
+}
+.nav p i {
   color: #c2bfbf;
 }
 .nav a:hover {
@@ -15588,9 +15606,9 @@ header .btn {
 .menu .menushow {
   flex: 10;
 }
-.menu .row > .col-6 {
-  border-bottom: 1px solid grey;
-  padding: 0;
+.menu .kk {
+  border-bottom: 1px solid #d1d1d1;
+  width: 90%;
 }
 
 .section-chef {
@@ -15665,8 +15683,19 @@ header .btn {
   border-radius: 25px;
 }
 
-footer {
+.footimg {
+  background-image: url("../../public/images/footer_bottom_decoration_img.png");
+  height: 10px;
+  background-color: black;
+}
+
+.foot {
   background-image: url("../../public/images/footer_background.jpg");
+}
+.foot a {
+  border: 2px solid white;
+  border-radius: 25px;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */
