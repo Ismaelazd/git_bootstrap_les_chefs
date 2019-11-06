@@ -15551,6 +15551,9 @@ header .btn {
 
 .nav a {
   color: black;
+  padding: 0;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
 }
 .nav a i {
   color: #c2bfbf;
@@ -15559,6 +15562,20 @@ header .btn {
   border-right: 5px solid red;
 }
 .nav a:hover i {
+  color: red;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f8f9fa00 !important;
+  color: black;
+  border-right: 5px solid red;
+}
+.nav-pills .nav-link.active i,
+.nav-pills .show > .nav-link i {
   color: red;
 }
 
@@ -15571,6 +15588,10 @@ header .btn {
 .menu .menushow {
   flex: 10;
 }
+.menu .row > .col-6 {
+  border-bottom: 1px solid grey;
+  padding: 0;
+}
 
 .section-chef {
   background-image: url("../../public/images/team_background.jpg");
@@ -15579,9 +15600,16 @@ header .btn {
 .section-book {
   background-image: url("../../public/images/main_bg.jpg");
 }
+.section-book .container {
+  padding: 0;
+}
 .section-book form {
   display: flex;
   flex-direction: column;
+  background-image: url("../../public/images/book_table_bg.jpg");
+  margin: 10px 200px;
+  padding: 60px 0;
+  border-radius: 25px;
 }
 .section-book form input, .section-book form select {
   width: 35vh;
@@ -15590,6 +15618,55 @@ header .btn {
   background-color: white;
   border: solid 1px grey;
   border-radius: 25px;
+}
+.section-book form .btn {
+  margin-top: 30px;
+  border-radius: 25px;
+  width: 23vh;
+}
+.section-book .blog {
+  padding: 0;
+}
+.section-book .blog .row .col-6 img {
+  border-radius: 25px;
+  border: 3px solid #aaa8a8;
+}
+.section-book .blog .row .col-6 .badge {
+  transform: translate(0px, -25px);
+}
+.section-book .btn {
+  margin-top: 30px;
+  border-radius: 25px;
+  width: 23vh;
+}
+
+.section-client {
+  background-image: url("../../public/images/testimonials_background.jpg");
+}
+.section-client .testi .col-6 {
+  display: flex;
+}
+.section-client .testi .col-6 div {
+  border: 2px solid #ddd9d9;
+  border-radius: 25px;
+}
+.section-client .testi .col-6 img {
+  border-radius: 50%;
+  border: 5px solid #ddd9d9;
+  height: 25vh;
+}
+
+.section-contact {
+  background-image: url("../../public/images/main_bg.jpg");
+}
+.section-contact .contact {
+  margin: 5vh 60vh;
+  padding: 10vh 0;
+  border-radius: 25px;
+}
+
+footer {
+  background-image: url("../../public/images/footer_background.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */

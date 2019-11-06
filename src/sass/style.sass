@@ -67,6 +67,10 @@ header
 .nav
     a 
         color: black
+        padding: 0
+        border-bottom: 1px solid grey
+        border-right: 1px solid grey
+
         i 
             color: rgb(194, 191, 191)
     a:hover 
@@ -74,22 +78,49 @@ header
         i
             color: red
 
+         
+.nav-pills 
+    .nav-link 
+        border-radius: 0px
+
+    .nav-link.active,
+    .show > .nav-link 
+
+        background-color: #f8f9fa00 !important
+        color: black
+        border-right: 5px solid red
+            
+        i
+           color: red
+        
+
+
 .menu
     display: flex
     .nav 
         flex: 2
     .menushow
         flex: 10
+
+    .row > .col-6
+        border-bottom: 1px solid grey
+        padding: 0
+ 
  
 .section-chef
     background-image: url("../../public/images/team_background.jpg") 
 
 .section-book
         background-image: url("../../public/images/main_bg.jpg")
-
+        .container
+            padding: 0
         form 
             display: flex
             flex-direction: column
+            background-image: url("../../public/images/book_table_bg.jpg") 
+            margin: 10px 200px
+            padding: 60px 0
+            border-radius: 25px
 
             input, select
                 width: 35vh
@@ -98,7 +129,52 @@ header
                 background-color: white
                 border: solid 1px grey
                 border-radius: 25px
-              
+            
+            .btn 
+                margin-top: 30px
+                border-radius: 25px
+                width: 23vh
             
              
-            
+        .blog
+            padding: 0
+            .row
+                .col-6 
+                  
+                    img 
+                        border-radius: 25px
+                        border: 3px solid rgb(170, 168, 168)
+                    .badge 
+                        transform: translate(0px, -25px) 
+        .btn 
+                margin-top: 30px
+                border-radius: 25px
+                width: 23vh
+
+.section-client
+    background-image: url("../../public/images/testimonials_background.jpg")
+
+    .testi 
+       
+        .col-6
+            display: flex 
+
+            div
+                border: 2px solid rgb(221, 217, 217)
+                border-radius: 25px
+            img 
+               
+                border-radius: 50%
+                border: 5px solid rgb(221, 217, 217)
+                height: 25vh
+
+.section-contact
+    background-image: url("../../public/images/main_bg.jpg")
+
+    .contact
+        margin: 5vh 60vh
+        padding: 10vh 0
+        border-radius: 25px
+
+footer
+    background-image: url("../../public/images/footer_background.jpg")
