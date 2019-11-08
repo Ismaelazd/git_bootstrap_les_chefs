@@ -15495,8 +15495,12 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../public/fonts/Courgette-Regular.ttf");
+}
 body {
-  font-family: "Courgette", cursive;
+  font-family: "Flaticon";
 }
 
 header {
@@ -15679,7 +15683,7 @@ header .carousel-indicators > li {
 }
 .section-contact .contact {
   margin: 5vh 60vh;
-  padding: 10vh 0;
+  padding: 5vh 0;
   border-radius: 25px;
 }
 
