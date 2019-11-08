@@ -15499,7 +15499,7 @@ readers do not read off random characters that represent icons */
   font-family: "Flaticon";
   src: url("../../public/fonts/Courgette-Regular.ttf");
 }
-body {
+.police {
   font-family: "Flaticon";
 }
 
