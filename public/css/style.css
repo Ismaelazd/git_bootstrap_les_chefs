@@ -15627,10 +15627,8 @@ header .carousel-indicators > li {
   padding: 0;
 }
 .section-book form {
-  display: flex;
-  flex-direction: column;
   background-image: url("../../public/images/book_table_bg.jpg");
-  margin: 10px 200px;
+  margin: 5% 12%;
   padding: 60px 0;
   border-radius: 25px;
 }
@@ -15713,6 +15711,16 @@ header .carousel-indicators > li {
   border: 2px solid white;
   border-radius: 25px;
   font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  nav {
+    padding-top: 3%;
+    display: inline-block;
+  }
+  nav img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
