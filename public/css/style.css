@@ -15547,9 +15547,10 @@ header .btn {
 header .carousel-indicators > li {
   width: 7px;
   height: 7px;
-  background-color: #646464;
+  background-color: white;
   border-radius: 50%;
-  border: 2px solid white;
+  box-shadow: 0 0 20px red;
+  border: 4px solid #646464;
 }
 
 .h1 {
@@ -15561,7 +15562,7 @@ header .carousel-indicators > li {
 }
 
 .lor {
-  margin: 30px 300px;
+  margin: 15%;
 }
 
 .tab-pane img {
@@ -15649,12 +15650,24 @@ header .carousel-indicators > li {
 .section-book .blog {
   padding: 0;
 }
-.section-book .blog .row .col-6 img {
+.section-book .blog .row {
+  margin: 0 170px;
+}
+.section-book .blog .row .col-lg-6 img {
   border-radius: 25px;
   border: 3px solid #aaa8a8;
+  width: 80%;
 }
-.section-book .blog .row .col-6 .badge {
-  transform: translate(0px, -25px);
+.section-book .blog .row .col-lg-6 .badge2 {
+  transform: translate(33%, -55%);
+  border-radius: 5px;
+  width: 60%;
+}
+.section-book .blog .row .col-lg-6 .badge2 p {
+  font-size: 75%;
+}
+.section-book .blog .row .col-lg-6 .text-left {
+  padding: 0 75px;
 }
 .section-book .btn {
   margin-top: 30px;
@@ -15665,14 +15678,14 @@ header .carousel-indicators > li {
 .section-client {
   background-image: url("../../public/images/testimonials_background.jpg");
 }
-.section-client .testi .col-6 {
+.section-client .testi .col-xl-6 {
   display: flex;
 }
-.section-client .testi .col-6 div {
+.section-client .testi .col-xl-6 div {
   border: 2px solid #ddd9d9;
   border-radius: 25px;
 }
-.section-client .testi .col-6 img {
+.section-client .testi .col-xl-6 img {
   border-radius: 50%;
   border: 5px solid #ddd9d9;
   height: 25vh;
@@ -15682,8 +15695,8 @@ header .carousel-indicators > li {
   background-image: url("../../public/images/main_bg.jpg");
 }
 .section-contact .contact {
-  margin: 5vh 60vh;
-  padding: 5vh 0;
+  margin: 5% 30%;
+  padding: 5% 0;
   border-radius: 25px;
 }
 
