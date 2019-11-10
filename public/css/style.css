@@ -15562,7 +15562,7 @@ header .carousel-indicators > li {
 }
 
 .lor {
-  margin: 15% 20%;
+  margin: 8% 20%;
 }
 
 .tab-pane img {
@@ -15678,14 +15678,14 @@ header .carousel-indicators > li {
 .section-client {
   background-image: url("../../public/images/testimonials_background.jpg");
 }
-.section-client .testi .col-xl-6 {
+.section-client .testi .col-lg-6 {
   display: flex;
 }
-.section-client .testi .col-xl-6 div {
+.section-client .testi .col-lg-6 div {
   border: 2px solid #ddd9d9;
   border-radius: 25px;
 }
-.section-client .testi .col-xl-6 img {
+.section-client .testi .col-lg-6 img {
   border-radius: 50%;
   border: 5px solid #ddd9d9;
   height: 25vh;
